@@ -1,0 +1,33 @@
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 0 repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .navigation { grid-area: 1 / 1 / 2 / 6;
+    background-color: beige;
+    height: 250px;
+    width: 100%;
+    }
+    
+    .welcomebox { grid-area: 2 / 1 / 4 / 3;
+        background-color: beige;
+    }
+    .video { grid-area: 4 / 1 / 6 / 3;
+        background-color: beige  }
+    .mypicture { grid-area: 2 / 4 / 4 / 6;
+        background-color:beige }
+    .bio { grid-area: 4 / 4 / 6 / 6;
+        background-color:beige }
+
+    #nav-buttons {
+        background-color:#eeeeee;
+        display:inline;
+        font-size: larger;      
+    }
+    #ul_top_hypers li{
+        display: inline;
+    }
